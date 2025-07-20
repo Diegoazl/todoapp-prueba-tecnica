@@ -37,3 +37,10 @@ Aplicación web desarrollada como parte de una prueba técnica. Permite crear, e
 ```bash
 git clone https://github.com/Diegoazl/todoapp-prueba-tecnica.git
 cd todoapp-prueba-tecnica
+
+👨‍💻 Autor
+Diego Alejandro Zapata Londoño
+Desarrollador de Software & Marketing Digital
+https://www.linkedin.com/in/diego-alejandro-zapata/
+https://github.com/Diegoazl
+

@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.app-contenedor {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.instrucciones {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.formulario-tarea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.formulario-tarea input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.boton-principal {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.boton-principal:hover {
+  background-color: #1e40af;
+}
+
+.lista-tareas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item-tarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.botones-tarea button {
+  margin-left: 8px;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.btn-editar {
+  background-color: #10b981;
+  color: white;
+}
+
+.btn-editar:hover {
+  background-color: #059669;
+}
+
+.btn-eliminar {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn-eliminar:hover {
+  background-color: #b91c1c;
+}
+
+.mensaje-error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.mensaje-info {
+  text-align: center;
+  color: #666;
+}
